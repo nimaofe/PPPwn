@@ -42,8 +42,11 @@ Install the requirements:
 ```sh
 sudo pip install -r requirements.txt
 ```
+sudo apt-get install python3-full
+sudo apt-get install pipx xyz
 
 Compile the payloads:
+
 
 ```sh
 make -C stage1 FW=1100 clean && make -C stage1 FW=1100
